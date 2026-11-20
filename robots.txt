@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jakeintech.github.io/seventh-wave-site/sitemap.xml

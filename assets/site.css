@@ -27,7 +27,7 @@ h3{font-size:1.15rem;font-weight:800;margin:0 0 .25em}
 @media (min-width:820px){.hero-grid{grid-template-columns:1.15fr .85fr}}
 .hero-icon{border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
 .phone{margin:0;justify-self:center;max-width:300px}
-.phone img{display:block;width:100%;height:auto;border-radius:34px;border:6px solid var(--ink);box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.phone img,.phone video{display:block;width:100%;height:auto;border-radius:34px;border:6px solid var(--ink);box-shadow:0 24px 60px rgba(0,0,0,.35)}
 figcaption{font-size:.9rem;color:#d7ece9;margin-top:10px;text-align:center}
 .cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:22px 0 12px}
 .btn,.soon{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 22px;border-radius:999px;font-weight:800;text-decoration:none}
@@ -66,4 +66,8 @@ footer{background:var(--sand);color:var(--ink);padding:26px 0 34px;font-size:.95
 .doc+footer,.plain+footer{margin-top:0}
 footer a{color:#7a2a12}
 footer nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:8px}
+.downloads{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:18px 0}
+.downloads figure{margin:0}.downloads img{display:block;width:100%;height:auto;border-radius:16px;border:3px solid var(--ink)}
+.downloads figcaption{text-align:left}
+dl.facts2{display:grid;grid-template-columns:max-content 1fr;gap:8px 20px}dl.facts2 dt{color:var(--sand);font-weight:700}dl.facts2 dd{margin:0}
 .placeholder{background:var(--coral);color:var(--ink);font-weight:800;padding:2px 8px;border-radius:6px}
