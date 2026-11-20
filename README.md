@@ -9,6 +9,7 @@ Will be live at <https://jakeintech.github.io/seventh-wave-site/> (GitHub Pages,
 | Home (App Store marketing URL) | `/` |
 | Support and FAQ (App Store support URL) | `/support.html` |
 | Privacy Policy (App Store privacy URL) | `/privacy-policy.html` |
+| Terms of Use | `/terms-of-service.html` |
 
 Keep these URLs as they are: App Store Connect points at them.
 
